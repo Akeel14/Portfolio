@@ -12,3 +12,16 @@ navLinks.forEach((link) => {
   });
 });
 
+const sectionTitles = document.querySelectorAll(".section-title");
+
+sectionTitles.forEach((sectionTitle) => {
+  const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting) {
+      sectionTitle.classList.add("center");
+      sectionTitle.targetElement.scrollIntoView({ behavior: "smooth" });
+    } else {
+      sectionTitle.classList.remove("center");
+    }
+  });
+  observer.observe(sectionTitle);
+});

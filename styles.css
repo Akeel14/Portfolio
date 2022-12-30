@@ -1,3 +1,24 @@
+* {
+  box-sizing: border-box;
+  color: #0f0e17;
+  font-family: Montserrat, sans-serif;
+  scroll-behavior: smooth;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 80px;
+  text-align: center;
+  padding-right: 10px;
+  margin: 0;
+}
+
+p {
+  text-align: justify;
+  font-size: 30px;
+}
+
 /* Styles for the navbar */
 .navbar {
   display: flex;
@@ -7,7 +28,6 @@
   top: 0;
   left: 0;
   right: 0;
-  z-index: 2;
   background-color: transparent;
   transition: background-color 0.5s ease;
 }
@@ -54,12 +74,10 @@
   text-decoration: none;
 }
 
-
 /* Styles for the initial page */
 body {
   margin: 0;
   padding: 0;
-  font-family: "Custom Font", "Valencia";
   background-color: #e5e4e3;
   color: #000000;
 }
@@ -72,17 +90,6 @@ body {
   height: 100vh;
 }
 
-.initial-page h1 {
-  font-size: 70px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.initial-page p {
-  font-size: 35px;
-  margin: 8px 0 0 0;
-}
-
 /* Styles for the other sections */
 
 .section {
@@ -93,14 +100,12 @@ body {
 .section h2 {
   font-size: 200px;
   color: #ffffff;
-  margin: 0 0 16px 0;
-
+  margin-bottom: -60px;
 }
 
 .section p {
-  font-size: 18px;
+  font-size: 25px;
   line-height: 1.5;
-  margin: 0;
 }
 
 .section ul {
@@ -112,6 +117,16 @@ body {
 .section ul li {
   font-size: 18px;
   margin: 8px 0;
+}
+
+.section-title {
+  transform: translateX(-100%);
+  transition: transform 2s ease;
+}
+
+.section-title.center {
+  /* Add the center as the ending position */
+  transform: translateX(0);
 }
 
 /* Styles for the contact form */
