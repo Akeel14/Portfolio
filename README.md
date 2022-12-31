@@ -1,5 +1,5 @@
 # Portfolio Website
-This is a portfolio website for a junior software developer, showcasing their skills and past projects. The website is built with HTML, CSS, and JavaScript, and utilizes Google Fonts and Font Awesome for styling and icons.
+This is my portfolio website, showcasing my skills and past projects. The website is built with HTML, CSS, and JavaScript, and utilizes Google Fonts and Font Awesome for styling and icons.
 <img width="1423" alt="Screen Shot 2022-12-31 at 12 57 49 AM" src="https://user-images.githubusercontent.com/58542001/210126775-1ee80eb5-e89d-4d09-b4ef-6de8d6307d52.png">
 
 # Features
