@@ -167,6 +167,7 @@ body {
 .projects-section {
   height: auto;
 }
+
 .projects-section h2 {
   padding-top: 50px;
   margin-left: -10px;
@@ -201,6 +202,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
 .technologies-used {
   margin-top: 2px;
 }
@@ -218,6 +220,7 @@ body {
   flex-direction: column;
   align-items: center;
 }
+
 .project-description-container h3 {
   display: inline-block;
   text-align: right;
@@ -233,6 +236,7 @@ body {
   margin-top: -10px;
   font-size: 15px;
 }
+
 /* PROJECT BUTTONS */
 .project-buttons {
   display: flex;
@@ -245,12 +249,14 @@ body {
   margin-left: 10px;
   border-radius: 15px;
 }
+
 /* COOL HOVER EFFECT */
 .cool-hover-effect:hover {
   background-color: #333;
   color: #fff;
   border: 1px solid #333;
 }
+
 .hover-effect:hover {
   background-color: #333;
   color: #fff;
@@ -259,16 +265,18 @@ body {
 }
 
 /* Styles for the SKILLS section */
-.skills-section h2{
+.skills-section h2 {
   padding-top: 130px;
   margin-left: -10px;
 }
+
 /* Programming languages styles */
 .language-container {
   margin-top: -90px;
   display: flex;
   align-items: center;
 }
+
 .language-container p {
   font-size: 20px;
 }
@@ -289,9 +297,11 @@ body {
   display: flex;
   align-items: center;
 }
+
 .library-framework-container p {
   font-size: 20px;
 }
+
 .library-framework-icons {
   display: flex;
 }
@@ -308,9 +318,11 @@ body {
   display: flex;
   align-items: center;
 }
+
 .database-container p {
   font-size: 20px;
 }
+
 .database-icons {
   display: flex;
 }
@@ -331,6 +343,7 @@ body {
 .dev-tools-container p {
   font-size: 20px;
 }
+
 .dev-tools-icons {
   display: flex;
 }
@@ -346,15 +359,23 @@ body {
 .icon-HTML {
   background-image: url("/images/icons/HTML.png");
 }
+
 .icon-CSS {
   background-image: url("/images/icons/css.png");
 }
+
 .icon-JAVASCRIPT {
   background-image: url("/images/icons/javascript.png");
 }
+
+.icon-JAVA {
+  background-image: url("/images/icons/java.png");
+}
+
 .icon-CSHARP {
   background-image: url("/images/icons/csharp.png");
 }
+
 .icon-SWIFT {
   background-image: url("/images/icons/swift.png");
 }
@@ -363,21 +384,27 @@ body {
 .icon-REACT {
   background-image: url("/images/icons/react.png");
 }
+
 .icon-ANGULAR {
   background-image: url("/images/icons/angular.png");
 }
+
 .icon-NODE {
   background-image: url("/images/icons/node.png");
 }
+
 .icon-EXPRESS {
   background-image: url("/images/icons/express.png");
 }
+
 .icon-HANDLEBARS {
   background-image: url("/images/icons/handlebars.png");
 }
+
 .icon-NET {
   background-image: url("/images/icons/net.png");
 }
+
 .icon-SWIFTUI {
   background-image: url("/images/icons/swiftui.png");
 }
@@ -386,44 +413,100 @@ body {
 .icon-MONGODB {
   background-image: url("/images/icons/mongodb.png");
 }
+
 .icon-AZURE {
   background-image: url("/images/icons/azure.png");
 }
+
 .icon-ORACLE {
   background-image: url("/images/icons/oracle.png");
 }
+
 .icon-POSTGRESQL {
   background-image: url("/images/icons/postgresql.png");
 }
+
 .icon-FIREBASE {
   background-image: url("/images/icons/firebase.png");
 }
-
 
 /* Dev Tools ICONS */
 .icon-NPM {
   background-image: url("/images/icons/npm.png");
 }
+
 .icon-GIT {
   background-image: url("/images/icons/git.png");
 }
+
 .icon-GITHUB {
   background-image: url("/images/icons/github.png");
 }
+
 .icon-VSC {
   background-image: url("/images/icons/vsccode.png");
 }
+
 .icon-VS {
   background-image: url("/images/icons/vscode.png");
 }
+
 .icon-XCODE {
   background-image: url("/images/icons/xcode.png");
 }
+
 .icon-POSTMAN {
   background-image: url("/images/icons/postman.png");
 }
+
 .icon-FIGMA {
   background-image: url("/images/icons/figma.png");
 }
 
 /* Styles for the CONTACT section */
+.contact-section h2 {
+  padding-top: 150px;
+}
+
+.contact-container {
+  display: flex;
+  align-items: center;
+  margin-top: -100px;
+}
+
+.contact-icons i {
+  display: flex;
+}
+
+.elements {
+  height: 150px;
+  width: 150px;
+  background-size: cover;
+}
+
+.icon-link {
+  display: inline-block;
+  padding-right: 70px;
+  height: 150px;
+  width: 150px;
+}
+
+.icon-linkedin {
+  background-image: url("/images/icons/linkedin.png");
+}
+
+.icon-github {
+  background-image: url("/images/icons/github2.png");
+}
+
+.icon-email {
+  background-image: url("/images/icons/email.png");
+}
+
+.icon-instagram {
+  background-image: url("/images/icons/instagram.png");
+}
+
+.icon-twitter {
+  background-image: url("/images/icons/twitter.png");
+}
