@@ -1,22 +1,33 @@
 * {
-  box-sizing: border-box;
-  color: #0f0e17;
   font-family: Montserrat, sans-serif;
   scroll-behavior: smooth;
   text-transform: uppercase;
 }
 
-h1 {
-  font-family: "Sansita Swashed", cursive;
-  font-size: 80px;
-  text-align: center;
-  padding-right: 10px;
-  margin: 0;
+.element {
+  position: relative;
+  opacity: 1;
+  animation: slideUp 3.5s, fadeIn 3.5s;
 }
 
-p {
-  text-align: justify;
-  font-size: 30px;
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 /* Styles for the navbar */
@@ -30,6 +41,7 @@ p {
   right: 0;
   background-color: transparent;
   transition: background-color 0.5s ease;
+  z-index: 100;
 }
 
 .navbar.scrolled {
@@ -44,6 +56,7 @@ p {
   text-decoration: none;
   transform: scale(1);
   transition: transform 0.2s;
+  z-index: 100;
 }
 
 .navbar-brand:hover {
@@ -90,22 +103,33 @@ body {
   height: 100vh;
 }
 
-/* Styles for the other sections */
+.initial-page h1 {
+  font-family: "Sansita Swashed", cursive;
+  font-size: 80px;
+  text-align: center;
+  padding-right: 10px;
+  margin: 0;
+}
 
+.initial-page p {
+  text-align: justify;
+  font-size: 30px;
+}
+
+/* Styles for sections */
 .section {
-  padding: 64px;
+  /* TOP RIGHT BOTTOM LEFT  */
+  padding: 0px 40px;
   height: 100vh;
 }
 
 .section h2 {
-  font-size: 200px;
+  font-size: 130px;
   color: #ffffff;
-  margin-bottom: -60px;
 }
 
 .section p {
-  font-size: 25px;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .section ul {
@@ -125,37 +149,121 @@ body {
 }
 
 .section-title.center {
-  /* Add the center as the ending position */
   transform: translateX(0);
 }
 
-/* Styles for the contact form */
+/* Styles for the ABOUT ME section */
+.about-me-section h2 {
+  padding-top: 230px;
+}
 
-.contact-form {
+.about-me-section p {
+  text-align: justify;
+  font-size: 20px;
+  margin-top: -130px;
+}
+
+/* Styles for the PROJECTS section */
+.projects-section {
+  height: auto;
+}
+.projects-section h2 {
+  padding-top: 50px;
+  margin-left: -10px;
+}
+
+.projects-section p {
+  text-align: justify;
+}
+
+/* PROJECT CONTAINERS */
+.project-one-container {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: -130px;
+  margin-bottom: 30px;
+}
+
+.project-two-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+}
+
+.project-three-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+
+}
+
+.project-four-container {
+  display: flex;
+  justify-content: space-between;
+}
+.technologies-used {
+  margin-top: 2px;
+}
+
+/* PROJECT SCREENSHOT AND TECHNOLOGIES USED CONTAINER */
+.project-screenshot-technologies-used-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 32px 0;
 }
 
-.contact-form label {
+/* PROJECT DESCRIPTION CONTAINER */
+.project-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-description-container h3 {
+  display: inline-block;
+  text-align: right;
+  font-weight: bold;
   font-size: 18px;
-  margin: 8px 0;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 
-.contact-form input,
-.contact-form textarea {
-  font-size: 18px;
-  padding: 8px;
-  border: 1px solid #cccccc;
-  width: 100%;
+.project-description-container p {
+  text-align: justify;
+  margin-left: 60px;
+  margin-top: -10px;
+  font-size: 15px;
+}
+/* PROJECT BUTTONS */
+.project-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: auto;
 }
 
-.contact-form input[type="submit"] {
-  font-size: 18px;
-  padding: 8px 16px;
-  background-color: #000000;
-  color: #ffffff;
-  border: none;
-  cursor: pointer;
+.cool-hover-effect {
+  padding: 6px;
+  margin-left: 10px;
+  border-radius: 15px;
 }
+/* COOL HOVER EFFECT */
+.cool-hover-effect:hover {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #333;
+}
+.hover-effect:hover {
+  background-color: #333;
+  color: #fff;
+  border: 5px solid #333;
+  border-radius: 25px;
+
+
+}
+
+
+
+/* Styles for the SKILLS section */
+
+/* Styles for the CONTACT section */

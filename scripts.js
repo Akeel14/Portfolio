@@ -18,10 +18,28 @@ sectionTitles.forEach((sectionTitle) => {
   const observer = new IntersectionObserver((entries) => {
     if (entries[0].isIntersecting) {
       sectionTitle.classList.add("center");
-      sectionTitle.targetElement.scrollIntoView({ behavior: "smooth" });
     } else {
       sectionTitle.classList.remove("center");
     }
   });
   observer.observe(sectionTitle);
+});
+
+const elements = document.querySelectorAll(".element");
+
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.style.animationPlayState = "running";
+      entry.target.style.transform = "translateY(0)";
+      entry.target.style.opacity = "1";
+
+    } else {
+      entry.target.style.animationPlayState = "paused";
+    }
+  });
+});
+
+elements.forEach((element) => {
+  observer.observe(element);
 });
