@@ -189,14 +189,12 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
-
 }
 
 .project-three-container {
   display: flex;
   justify-content: space-between;
   margin-bottom: 30px;
-
 }
 
 .project-four-container {
@@ -258,12 +256,174 @@ body {
   color: #fff;
   border: 5px solid #333;
   border-radius: 25px;
+}
 
+/* Styles for the SKILLS section */
+.skills-section h2{
+  padding-top: 130px;
+  margin-left: -10px;
+}
+/* Programming languages styles */
+.language-container {
+  margin-top: -90px;
+  display: flex;
+  align-items: center;
+}
+.language-container p {
+  font-size: 20px;
+}
 
+.language-icons {
+  display: flex;
+}
+
+.language-icons i {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  margin-left: 10px;
+}
+
+/* library-framework styles */
+.library-framework-container {
+  display: flex;
+  align-items: center;
+}
+.library-framework-container p {
+  font-size: 20px;
+}
+.library-framework-icons {
+  display: flex;
+}
+
+.library-framework-icons i {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  margin-left: 10px;
+}
+
+/* database styles */
+.database-container {
+  display: flex;
+  align-items: center;
+}
+.database-container p {
+  font-size: 20px;
+}
+.database-icons {
+  display: flex;
+}
+
+.database-icons i {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  margin-left: 10px;
+}
+
+/* dev-tools styles */
+.dev-tools-container {
+  display: flex;
+  align-items: center;
+}
+
+.dev-tools-container p {
+  font-size: 20px;
+}
+.dev-tools-icons {
+  display: flex;
+}
+
+.dev-tools-icons i {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+  margin-left: 10px;
+}
+
+/* PROGRAMMING LANGUAGES ICONS */
+.icon-HTML {
+  background-image: url("/images/icons/HTML.png");
+}
+.icon-CSS {
+  background-image: url("/images/icons/css.png");
+}
+.icon-JAVASCRIPT {
+  background-image: url("/images/icons/javascript.png");
+}
+.icon-CSHARP {
+  background-image: url("/images/icons/csharp.png");
+}
+.icon-SWIFT {
+  background-image: url("/images/icons/swift.png");
+}
+
+/* Libraries & Frameworks ICONS */
+.icon-REACT {
+  background-image: url("/images/icons/react.png");
+}
+.icon-ANGULAR {
+  background-image: url("/images/icons/angular.png");
+}
+.icon-NODE {
+  background-image: url("/images/icons/node.png");
+}
+.icon-EXPRESS {
+  background-image: url("/images/icons/express.png");
+}
+.icon-HANDLEBARS {
+  background-image: url("/images/icons/handlebars.png");
+}
+.icon-NET {
+  background-image: url("/images/icons/net.png");
+}
+.icon-SWIFTUI {
+  background-image: url("/images/icons/swiftui.png");
+}
+
+/* Database ICONS */
+.icon-MONGODB {
+  background-image: url("/images/icons/mongodb.png");
+}
+.icon-AZURE {
+  background-image: url("/images/icons/azure.png");
+}
+.icon-ORACLE {
+  background-image: url("/images/icons/oracle.png");
+}
+.icon-POSTGRESQL {
+  background-image: url("/images/icons/postgresql.png");
+}
+.icon-FIREBASE {
+  background-image: url("/images/icons/firebase.png");
 }
 
 
-
-/* Styles for the SKILLS section */
+/* Dev Tools ICONS */
+.icon-NPM {
+  background-image: url("/images/icons/npm.png");
+}
+.icon-GIT {
+  background-image: url("/images/icons/git.png");
+}
+.icon-GITHUB {
+  background-image: url("/images/icons/github.png");
+}
+.icon-VSC {
+  background-image: url("/images/icons/vsccode.png");
+}
+.icon-VS {
+  background-image: url("/images/icons/vscode.png");
+}
+.icon-XCODE {
+  background-image: url("/images/icons/xcode.png");
+}
+.icon-POSTMAN {
+  background-image: url("/images/icons/postman.png");
+}
+.icon-FIGMA {
+  background-image: url("/images/icons/figma.png");
+}
 
 /* Styles for the CONTACT section */
